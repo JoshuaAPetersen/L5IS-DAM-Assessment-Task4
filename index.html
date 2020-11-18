@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .column {
+        width: 45%;
+        float: left;
+        padding: 15px;
+      }
+      #welcome {
+        font-weight: 200;
+        font-size: 30px;
+      }
+      .image {
+        width: 100%;
+      }
+      .row {
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .fcolumn {
+        width: 15%;
+        float: left;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" type="text/css" href="Navbar.css" />
+  <link rel="stylesheet" type="text/css" href="Footer.css" />
+  <body>
+    <header>
+      <div class="topnav">
+        <img src="logo.PNG" class="logo" />
+        <h1 class="">A mall for Family</h1>
+      </div>
+    </header>
+    <div class="column">
+      <div class="table center">
+        <img
+          class="image"
+          src="https://cdn.mos.cms.futurecdn.net/ovFRmER6XBh5qtkeM3Cp65-970-80.jpg.webp"
+        />
+        <p>Apple</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="table center">
+        <img
+          class="image"
+          src="https://cdn.mos.cms.futurecdn.net/PFKQQg9HBNAMtTzPrVfwU9-970-80.jpg.webp"
+        />
+        <p>Fitbit</p>
+      </div>
+    </div>
+    <h2 class="clearfix"></h2>
+    <div class="column">
+      <div class="table center">
+        <img
+          class="image"
+          src="https://cdn.mos.cms.futurecdn.net/2N4kn9kFxbn48XgtCDejpA-970-80.jpg.webp"
+        />
+        <p>Fossil</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="table center">
+        <img
+          class="image"
+          src="https://cdn.mos.cms.futurecdn.net/qNoYMtoik4GFxUZtWzdFXT-970-80.jpg.webp"
+        />
+        <p>Honor</p>
+      </div>
+    </div>
+    <form>
+      <fieldset>
+        <legend>FeedBack</legend>
+        <div class="fcolumn">
+          <label for="fname">Name:</label><br />
+          <input type="text" id="fname" name="fname" placeholder="John" /><br />
+        </div>
+        <div class="fcolumn">
+          <label for="fname">Phone NO:</label><br />
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="##########"
+          /><br />
+        </div>
+        <div class="fcolumn">
+          <label for="fname">Email:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="John@gmail.com"
+          /><br />
+        </div>
+        <h2 class="clearfix"></h2>
+        <textarea name="message" rows="10" cols="100"></textarea><br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <div class="footer">
+      <div class="footer_inner">
+        <div class="footer_logos">
+          <h1>Follow Us</h1>
+          <li>
+            <a href="#"
+              ><img
+                class="social"
+                src="https://1.bp.blogspot.com/-WSdqH3gMHDk/U-xndvvQYrI/AAAAAAAABwg/9OLHbIjiTF8/s1600/facebook%2Blogo%2Bpng%2Btransparent%2Bbackground.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="social"
+                src="https://www.transparentpng.com/download/logo-instagram/347UuV-logo-instagram-free-download-transparent.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="social"
+                src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="social"
+                src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png"
+            /></a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
